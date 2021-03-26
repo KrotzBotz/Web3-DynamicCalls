@@ -8,6 +8,7 @@ NOTE to use these files you need to configure variables within the .env file
 .env
 -------------------------------------------------------
 ADDRESS_1="0x... your address"
+
 PRIVATE_KEY_1="0x...private key only required for sendTX"
 
 ETHERSCAN_TOKEN=""
