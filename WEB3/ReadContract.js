@@ -89,7 +89,6 @@ const readTX = async (contractAddress, info) => {
             .call((err, res) => {
                 if (err) throw err;
                 data = res;
-                console.log(res);
             });
         return data;
     } catch (e) {
