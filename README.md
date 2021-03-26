@@ -15,6 +15,7 @@ ETHERSCAN_TOKEN=""
 INFURA_TOKEN=""
 
 CURRENT_CHAIN="rinkeby"
+
 -------------------------------------------------------
 
 You can change the chain you connect to depending on 
