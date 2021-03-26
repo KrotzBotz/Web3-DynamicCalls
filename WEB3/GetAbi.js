@@ -2,7 +2,7 @@
  *                      GetAbi.js
  * Author: Dillon Krotz
  * 
- * This file pulls ABI from a contract address on the mainnet
+ * This file pulls ABI from a contract address if it was uploaded
  * and returns it as a javascript object
  * 
     ⣿⣿⣿⣿⡿⠟⠛⠛⠛⠛⠉⠉⠙⠛⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠟⠂⠀
