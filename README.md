@@ -1,5 +1,5 @@
 # Web3-DynamicCalls
-Call contract methods on the ethereum efortlessly.
+Call contract methods on the ethereum BC efortlessly.
 
 Important files are inside WEB3 folder.
 
