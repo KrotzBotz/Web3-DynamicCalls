@@ -109,9 +109,4 @@ const writeTX = async (contractAddress, info) => {
     } // errors will be logged in database eventually
 };
 
-writeTX('0x8431dabC2e0A30F038B1e732D214Ba958950d0EB', {
-    methodName: 'set',
-    args: [4200],
-});
-
 module.exports = writeTX;
