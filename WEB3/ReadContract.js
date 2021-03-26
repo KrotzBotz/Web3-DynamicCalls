@@ -68,7 +68,7 @@ const ABIPath = `${__dirname}/JSON/testABI.json`; //Please always link ABI :)
  *          methodName: 'MintToken',
  *          args: [argument1, argument2, etc]
  *      }
- * @returns The data from the contract call
+ * @returns The data from the contract call or
  */
 const readTX = async (contractAddress, info) => {
     try {
@@ -83,7 +83,7 @@ const readTX = async (contractAddress, info) => {
         }
         ABI = isMethodThere ? ABI : await getABI(contractAddress, chain);
         const contract = new web3.eth.Contract(ABI, contractAddress);
-        let data;
+        let data = -1;
         contract.methods[info.methodName]
             .apply(this, info.args)
             .call((err, res) => {
