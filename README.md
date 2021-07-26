@@ -1,5 +1,5 @@
 # Web3-DynamicCalls
-Call contract methods on the ethereum BC efortlessly.
+Call contract methods on the Ethereum BC effortlessly.
 
 Important files are inside WEB3 folder.
 
@@ -20,7 +20,7 @@ CURRENT_CHAIN="rinkeby"
 -------------------------------------------------------
 
 You can change the chain you connect to depending on 
-the CURRENT_CHAIN varible
+the CURRENT_CHAIN variable
 set it to either
 mainnet
 rinkeby
@@ -37,3 +37,4 @@ npm packages I used.
     and
     "dotenv" for env variables.
     
+
